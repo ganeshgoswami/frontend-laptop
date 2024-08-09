@@ -13,7 +13,7 @@ import { MyContext } from './frontend/contaxt/dataProvider';
 
 function App() {
   const [allLaptops, SetLaptops] = useState([]);
-    let API = "http://localhost:2410/laptops";
+    let API = "https://backend-laptop-6skh.onrender.com/laptops";
     // optionsArray,optionsSel
     const fetchApiData = async (url) => {
       try {
