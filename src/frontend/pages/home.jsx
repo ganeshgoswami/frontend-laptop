@@ -45,7 +45,7 @@ const HomePage = () => {
     <div className="container mt-5">
       {/* <SideLink/> */}
       <div className="row">
-        <div className="col-3 border">
+        <div className="col-3 fontSize border">
           <LeftPanal
             optionsArray={optionsArray}
             optionsSel={optionsSel}
