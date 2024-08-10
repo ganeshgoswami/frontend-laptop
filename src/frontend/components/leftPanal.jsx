@@ -71,7 +71,7 @@ const  showRadio = (label,arr,name,selArr) =>{
 
   return (
     <div className="container aside">
-      <h4 className="mt-2">Choose Options</h4>
+      <h4 className="mt-2 fontSize">Choose Options</h4>
       <button className="btn btn-warning btn-sm" onClick={props.onClear}>
         Clear All
       </button>
